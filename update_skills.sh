@@ -16,7 +16,7 @@ pip3 install -U --pre git+https://github.com/OpenVoiceOS/skill-ovos-wikipedia
 
 # fallback
 pip3 install -U --pre git+https://github.com/OpenVoiceOS/skill-ovos-fallback-unknown
-pip3 install -U --pre pip3 install -U --pre git+https://github.com/OpenVoiceOS/skill-ovos-fallback-chatgpt
+pip3 install -U --pre git+https://github.com/OpenVoiceOS/skill-ovos-fallback-chatgpt
 
 # gui
 pip3 install -U --pre git+https://github.com/OpenVoiceOS/skill-ovos-homescreen
