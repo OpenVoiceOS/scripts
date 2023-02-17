@@ -231,7 +231,7 @@ def get(key):
     else:
         values = list(walkDict(CONFIG, key))
         if not values:
-            console.print("No key with the name {key} found")
+            console.print(f"No key with the name {key} found")
         else:
             for path, value in values:
                 console.print((f"Value: [red]{value}[/red], "
