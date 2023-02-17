@@ -300,7 +300,14 @@ def set(key, value):
             else:
                 raise TypeError
         elif isinstance(selected_value, list):
-            _value = [value]
+            try:
+                _value = pathGet(local_conf, selected_path)
+            except KeyError:
+                _value = list()
+                console.print(("Note: defining lists in the user config "
+                               "will override subsequent list configurations"),
+                               style="grey53")
+            _value.append(value)
         elif isinstance(selected_value, int):
             _value = int(value)
         elif isinstance(selected_value, float):
