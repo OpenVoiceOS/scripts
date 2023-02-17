@@ -10,8 +10,8 @@ pip3 install -U --pre ovos-phal-plugin-network-manager
 pip3 install -U --pre ovos-phal-plugin-dashboard
 pip3 install -U --pre ovos-phal-plugin-notification-widgets
 pip3 install -U --pre ovos-phal-plugin-gui-network-client
-pip3 install -U --pre ovos-phal-plugin-balena-wifi
 pip3 install -U --pre ovos-phal-plugin-brightness-control-rpi
+# pip3 install -U --pre ovos-phal-plugin-balena-wifi
 # pip3 install -U --pre ovos-phal-plugin-alsa
 # pip3 install -U --pre ovos-phal-plugin-gpsd
 # pip3 install -U --pre ovos-phal-plugin-analog-media-devices
