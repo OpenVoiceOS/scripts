@@ -262,9 +262,10 @@ def set(key, value):
         table = Table(show_header=True, header_style="bold red")
         table.add_column("#")
         table.add_column("Path", min_width=20)
+        table.add_column("Value")
 
         for i, path in enumerate(paths):
-            table.add_row(str(i), path)
+            table.add_row(str(i), path, str(values[i]))
         console.print(table)
 
         choice = Prompt.ask("Which value should be changed?",
